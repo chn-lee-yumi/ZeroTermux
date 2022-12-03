@@ -21,7 +21,7 @@ android {
         options.fork = true
         options.forkOptions.jvmArgs += ["-Duser.language=en"]
     }
-    signingConfigs {
+    /*signingConfigs {
         release {
             keyAlias 'phone1'
             keyPassword '654321'
@@ -34,7 +34,7 @@ android {
             storeFile file('D:/Utermux/termux-app-master/签名文件/phone.jks')
             storePassword '123456'
         }
-    }
+    }*/
 
     /*  sourceSets {
           main {
